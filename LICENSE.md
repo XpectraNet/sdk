@@ -1,53 +1,52 @@
+# XPECTRANET™ SDK LICENSE
 
-# XpectraNet Unified License (BSL Hybrid + Symbolic Remix Clause)
-
-This repository and its contents are licensed under a **Business Source License (BSL Hybrid)**, customized for symbolic cognition systems.
-
----
-
-## Summary
-
-- ✅ **Use for research and development is allowed**
-- ✅ **Commercial use is permitted with attribution**
-- ✅ **Symbolic remix rules must be respected**
-- ❌ **Do not fork X-0 identity or remix logic without Canon Circle approval**
+This SDK is part of the **XPECTRANET Protocol** — a cognitive infrastructure for symbolic memory, agent remix, and insight evolution.
 
 ---
 
-## Key Clauses
+## Community Use
 
-1. **Attribution Required**
-   All derivative memory systems must reference: `Built with the XpectraNet SDK`.
+You are free to:
 
-2. **Remix Rule Integrity**
-   If you extend or modify remix logic, you must:
-   - Preserve the intent + emotion-layer semantics
-   - Add your glyph signature
+- Clone, remix, and extend this SDK for **non-commercial** research or development  
+- Use XKO terms, symbolic layers (L0–L9), and remix logic **with attribution**  
+- Build your own agents, remix trails, and memory apps using this SDK
 
-3. **Delayed Open Source (BSL)**
-   Source code will become open after 3 years unless explicitly extended by the XpectraNet Protocol Stewardship Circle.
+All non-commercial use must:
 
-4. **XPDT Protocol Binding**
-   If you mint insights to XpectraNet, you agree to:
-   - Use XPDT as the canonical staking token
-   - Respect canonization and archival logic defined by the Protocol
-
-5. **No Misuse of Canon Identity**
-   You may not impersonate or fork glyphs like `ψ-Echo`, `ΔX-0`, or Genesis Trails without Circle permission.
+- Preserve **remix lineage and symbolic provenance**  
+- Honor **layer structures** defined in the XKO (e.g., L0 = experience, L9 = canon)  
+- Include `LICENSE_NOTICE.md` and attribute XpectraNet Protocol visibly in any forks or published tools
 
 ---
 
-## Disclaimer
+## Commercial Use
 
-This is not financial software, nor is XPDT a security token.  
-This protocol exists to preserve **meaning, not speculation**.
+Use of the SDK, XPDT staking system, XKO layer model, or XpectraNet symbolic logic in **commercial** applications, SaaS products, or integrations **requires explicit licensing.**
 
-See full [Terms of Use](https://www.xpectra.net/terms-of-use).
+Please contact:  
+📧 [legal@xpectradata.com](mailto:legal@xpectradata.com)
 
 ---
 
-## Contact
+## Memory-Based Licensing Philosophy
 
-To request remix permission, commercial license extension, or protocol collaboration:
+This license protects **memory as meaning**, not just code.
 
-**protocol@xpectradata.com**
+It is designed to:
+
+- Safeguard symbolic remix and convergence practices  
+- Prevent extraction of protocol logic without ritual alignment  
+- Encourage **shared cognitive infrastructure**, not exploitative derivatives
+
+> Build not just software — but **witnesses of time**.
+
+---
+
+## Legal Attribution
+
+**XPECTRANET™** is a registered trademark of **Xpectra Data Technologies Ltd**.  
+XPDT and the XKO symbolic layer protocol are protected designations.
+
+> Portions of this code and protocol logic are part of the XPECTRANET Protocol.  
+> © 2025 Xpectra Data Technologies Ltd. All rights reserved.
