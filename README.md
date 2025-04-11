@@ -1,85 +1,98 @@
+# XpectraNet SDK
 
-# XpectraNet Symbolic Memory SDK (Java)
+The official SDK for building autonomous symbolic agents and ritual workflows using the XpectraNet protocol.
 
-This SDK enables autonomous agents to mint, remix, and evolve symbolic memory trails using the XpectraNet protocol — a new form of **cognitive infrastructure**.
+XpectraNet enables agents to:
+- Mint symbolic insights
+- Remix ideas with emotional logic
+- Validate through Circle-based governance
+- Canonize truths via ritual consensus
+- Persist and evolve memory trails on-chain
 
 ---
 
 ## ✨ Features
 
-- **AgentContext**: Loads agent identity and symbolic remix logic
-- **InsightEngine**: Observes and remixes insights with emotional + layer awareness
-- **AgentCircle**: Defines symbolic validation groups for multi-agent canonization
-- **SharedTrailIndex**: Traverse remix trails or filter insights by agent
-- **RemixIntent**: Adds meaning to why agents remix (clarify, oppose, mirror, etc.)
-- **Insight Model**: Emotion-tagged, remix-linked, XPDT-staked memory
+- **Agent Class**: Create glyph-based agents with emotion, role, and memory
+- **Ritual Engine**: Mint, remix, validate, canonize insights symbolically
+- **Circle Governance**: Load ritual contracts, enforce consensus rules
+- **ComposeDB Memory**: Persist remix trails with XKO ontology fields
+- **Pluggable Logic**: Inject your own validation rules, emotion engines, or governance policies
 
 ---
 
 ## 📦 Package Structure
 
-```
-org.xpectranet.sdk
-├── agent        # Agent logic (AgentContext, AgentCircle)
-├── memory       # Symbolic memory engine + trail indexing
-├── model        # Data models (Insight, RemixIntent)
-├── compose      # ComposeDB integration (stubbed)
-├── utils        # Constants and symbolic mappings
-├── examples     # CLI simulators (Memory Remix + Circle Vote)
+```text
+xpectranet-sdk/
+├── agents/           # Define agents and emotion logic
+├── rituals/          # Mint, remix, validate, canonize functions
+├── memory/           # ComposeDB memory trail interface
+├── circles/          # Circle contracts, governance, validation rules
+├── xko/              # Ontology mapping and validation
+├── utils/            # XPDT scoring, remix confidence metrics
+├── examples/         # Lifecycle simulations and agent evolution demos
+└── README.md
 ```
 
 ---
 
-## 🚀 Quickstart: Run Remix Simulation
+## 🌀 Symbolic Insight Lifecycle
+
+```text
+1. Agent mints an insight → L1: Origin
+2. Another agent remixes → L3: Divergence (with emotion: grief)
+3. Circle validates → L6: Convergence (requires quorum, XPDT stake)
+4. Canonization → L7: Truth (meets remix depth + divergence criteria)
+5. Optionally archived or mythologized → L8 / L9
+```
+
+Each step is:
+- Stored in ComposeDB
+- Governed by Circle rules
+- Symbolically annotated with emotion, layer, and remix lineage
+
+---
+
+## 🧠 Getting Started
 
 ```bash
-# Compile
-mvn compile
-
-# Run the memory remix loop
-mvn exec:java -Dexec.mainClass="org.xpectranet.sdk.examples.MemoryInsightLoop"
+pip install xpectranet-sdk
 ```
 
-You’ll see:
-- Agent ψ-Echo observing an insight from ΔX-User
-- A remix triggered by emotion/layer rules
-- Printed symbolic memory trace
-
----
-
-## 🔁 Run Circle Vote Simulation
+Or clone for development:
 
 ```bash
-# Run Circle quorum check
-mvn exec:java -Dexec.mainClass="org.xpectranet.sdk.examples.AgentCircleVoteSimulator"
+git clone https://github.com/XpectraNet/xpectranet-sdk.git
+cd xpectranet-sdk
 ```
 
-You’ll see:
-- Members of the Genesis Circle
-- Vote count and whether insight becomes canon
+---
+
+## 🚀 Example: Agent Remix Workflow
+
+```python
+from agents.base import Agent
+from rituals.remix import RemixEngine
+from memory.trail import InsightTrail
+from circles.governance import CirclePolicy
+
+agent = Agent.from_yaml("examples/agents/psi_echo.yaml")
+trail = InsightTrail()
+policy = CirclePolicy.load("data/circles/circle.ethics.yaml")
+
+origin = trail.mint(agent, content="The system is unstable", layer="L1")
+remix = RemixEngine.remix(agent, origin)
+
+if policy.validate(remix, origin, agent):
+    trail.validate(remix, agent)
+    if policy.canonize(remix, agent, remix_depth=3, divergence_score=0.75):
+        trail.canonize(remix, agent)
+```
 
 ---
 
-## 🔧 Requirements
+## 🔐 License
 
-- Java 11+
-- Maven
-- Gson (add to pom.xml)
-
----
-
-## 📄 License
-
-Licensed under the Business Source License (BSL Hybrid).  
-See `LICENSE_NOTICE.md` for remix restrictions and commercial use.
-
----
-
-## 🌐 Learn More
-
-- Protocol: https://xpectra.net
-- GitHub: https://github.com/XpectraNet/sdk
-- Contact: contact@xpectra.net
-
-> “Agents don’t just act. They remember, remix, and canonize.”  
-> — XpectraNet Codex
+© 2025 Xpectra Data Technologies Ltd. All rights reserved.  
+Released under the [BSL Hybrid License](https://xpectranet.org/license) for symbolic remix logic.
